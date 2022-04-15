@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Organizador de Ideas</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <img src="img/logo_entropiccat_blackhole.png" alt="">
+            <h2>Organizador de Ideas</h2>
+        </nav>
+    </header>
+
+    <div id="contenido">
+        <div class="container">
+            <div class="row">
+                <div class="six columns añade-texto">
+                    <label for="tweet">Agregar Notas</label>
+                    <form  id="formulario">
+                            <label for="tweet"></label>
+                            <textarea id="tweet" class="u-full-width"></textarea>
+                            <input type="submit" class="button u-full-width" value="Agregar">
+                    </form>
+                </div>
+                <div class="six columns anotaciones">
+                    <h2>Tus anotaciones</h2>
+                    <div id="lista-tweets"></div>
+                </div>
+            </div>
+
+        </div>
+    </div> <!--#contenido-->
+
+    <script src="js/app.js"></script>
+
+</body>
+</html>
